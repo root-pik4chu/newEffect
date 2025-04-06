@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-[110vh] bg-zinc-950 relative">
+      <div className="w-full h-[110vh] bg-zinc-100 relative text-zinc-200">
         <div className="absolute w-full top-[20%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 mt-[10vh]">
           <div className="flex flex-col w-full h-full items-center justify-center">
             <ShinyText
@@ -81,7 +81,7 @@ function App() {
           <CircularGallery bend={5} textColor="#ffffff" borderRadius={0.02} />
         </div>
       </div>
-      <div className="w-full h-screen bg-zinc-950"></div>
+      <div className="w-full h-screen bg-zinc-50"></div>
     </>
   );
 }
